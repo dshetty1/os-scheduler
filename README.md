@@ -33,6 +33,8 @@ ex. <br>
 1 2 1 5 <br>
 2 2 1 3
 
+I/O time must be introduced after half a process' CPU time is used (i.e. process must be blocked after completing 0.5 * CPU time).
+
 ### Output: <br>
 Timing snapshot (at every line show):
 - Cycle time
